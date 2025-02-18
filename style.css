@@ -209,3 +209,104 @@
 
 
 
+
+
+/*resturant-list*/
+
+
+
+.restaurant-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 80px;
+    perspective: 1000px;
+}
+
+
+.restaurant-list .place-link {
+    background: #fff;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2 ease-in-out, box-shadow 0.2s ease-in-out;
+    transform-origin: center;
+    
+}
+
+.place-link:hover {
+    transform: scale(0.95) rotateX(3deg);
+}
+
+
+.place-link .list-item{
+    padding: 12px;
+}
+
+
+.item-content {
+    width: 100%;
+    position: relative;
+}
+
+
+.top-img {
+    width: 100%;
+    height: 160px;
+    position: relative;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+}
+.top-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.offers {
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 4px;
+    margin-bottom: 4px;
+}
+
+
+.rating {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: black;
+}
+
+
+.icon-star {
+    margin-right: 5px;
+}
+
+
+.food-location-description {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.location {
+    font-size: 16px;
+    
+}
