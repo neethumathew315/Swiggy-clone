@@ -313,7 +313,7 @@
 
 
 
-/*location near section*/
+
 
 
 .near-location-section::before {
@@ -403,3 +403,109 @@
     border-color: #a8a9ad;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
+
+
+
+/* Footer Section */
+.footer {
+    background-color: #f1f1f6;
+    padding: 40px 60px;
+    border-top: 1px solid #ccc;
+  }
+
+  .footer-top {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .footer-top p {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .footer-apps img {
+    width: 190px;
+    margin-left: 10px;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-left {
+    flex: 1;
+    min-width: 220px;
+  }
+
+  .footer-logo {
+    width: 150px;
+  }
+
+  .footer-left p {
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .footer-section {
+    flex: 1;
+    min-width: 180px;
+    margin-bottom: 20px;
+  }
+
+  .footer-section h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-section ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s ease;
+  }
+
+  .footer-section ul li a:hover {
+    color: black;
+  }
+
+  .social-links {
+    display: flex;
+    gap: 15px;
+  }
+
+  .social-links a {
+    font-size: 20px;
+    color: #666;
+    transition: color 0.3s;
+  }
+
+  .social-links a:hover {
+    color: black;
+  }
